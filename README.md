@@ -17,6 +17,7 @@ The dataset contains customer purchase records from an online retail environment
 
 ### Key Features
 * Customer information:
+
     ** Age
 
 
@@ -30,6 +31,7 @@ The dataset contains customer purchase records from an online retail environment
 
 
 * Purchase details:
+
     ** Item Purchased
 
 
@@ -49,6 +51,7 @@ The dataset contains customer purchase records from an online retail environment
 
 
 * Customer behavior metrics:
+
     ** Discount Applied
 
 
