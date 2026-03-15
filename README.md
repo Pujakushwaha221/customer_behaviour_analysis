@@ -6,239 +6,231 @@ The goal is to demonstrate a complete end-to-end data analytics workflow — fro
 ## Dataset
 The dataset contains customer purchase records from an online retail environment.
 ### Dataset Summary
-Total Records: 3,900
+* Total Records: 3,900
 
 
-Total Columns: 18
+* Total Columns: 18
 
 
-Data Type: Transactional customer data
+* Data Type: Transactional customer data
 
 
 ### Key Features
-Customer information:
-Age
+* Customer information:
+    ** Age
 
 
-Gender
+    ** Gender
 
 
-Location
+    ** Location
 
 
-Subscription Status
+    ** Subscription Status
 
 
-Purchase details:
-Item Purchased
+* Purchase details:
+    ** Item Purchased
 
 
-Category
+   ** Category
 
 
-Purchase Amount
+   ** Purchase Amount
 
 
-Season
+   ** Season
 
 
-Size
+   ** Size
 
 
-Color
+   ** Color
 
 
-Customer behavior metrics:
-Discount Applied
+* Customer behavior metrics:
+    ** Discount Applied
 
 
-Previous Purchases
+    ** Previous Purchases
 
 
-Frequency of Purchases
+    ** Frequency of Purchases
 
 
-Review Rating
+    ** Review Rating
 
 
-Shipping Type
+    ** Shipping Type
 
-
-
-## Tools & Technologies
-Tool
-Purpose
-Python (Pandas)
-Data loading, EDA and cleaning
-MySQL
-Querying business questions
-Power BI
-Interactive dashboard creation
-Gamma AI
-Presentation creation
-Jupyter Notebook
-Analysis workflow
 
 
 ## Project Workflow
 ### 1. Data Loading
-Loaded the dataset using Python (Pandas).
+* Loaded the dataset using Python (Pandas).
 
 
-Inspected structure using:
+* Inspected structure using:
 
 
-df.info()
+ * df.info()
 
 
-df.describe()
+ * df.describe()
 
 
-df.head()
+ * df.head()
 
 
 
 ### 2. Exploratory Data Analysis (EDA)
-Initial exploration to understand:
-Data types
+* Initial exploration to understand:
+  * Data types
 
 
-Missing values
+  * Missing values
 
 
-Distribution of purchase amounts
+  * Distribution of purchase amounts
 
 
-Product categories
+  * Product categories
 
 
-Customer demographics
+  * Customer demographics
 
 
-Key techniques used:
-Summary statistics
+* Key techniques used:
+   * Summary statistics
 
 
-Value counts
+   * Value counts
 
 
-Data visualization
+  * Data visualization
 
 
 
 ### 3. Data Cleaning
-Data preprocessing steps included:
-Handling missing values in the Review Rating column
+* Data preprocessing steps included:
+* Handling missing values in the Review Rating column
 
 
-Renaming columns to snake_case format
+* Renaming columns to snake_case format
 
 
-Creating new features such as:
+* Creating new features such as:
 
 
-age_group
+   * age_group
 
 
-purchase_frequency_days
+   * purchase_frequency_days
 
 
-Checking redundant columns and removing unnecessary ones
+   * Checking redundant columns and removing unnecessary ones
 
 
-Ensuring consistency of categorical values
+   * Ensuring consistency of categorical values
 
 
 
 ### 4. Database Integration (MySQL)
 The cleaned dataset was exported from Python and loaded into MySQL for structured querying.
+
 Business questions were answered using SQL queries such as:
-Revenue by gender
+
+* Revenue by gender
 
 
-High-spending customers using discounts
+* High-spending customers using discounts
 
 
-Top rated products
+* Top rated products
 
 
-Shipping type comparison
+* Shipping type comparison
 
 
-Subscriber vs non-subscriber analysis
+* Subscriber vs non-subscriber analysis
 
 
-Discount-dependent products
+* Discount-dependent products
 
 
-Customer segmentation (New / Returning / Loyal)
+* Customer segmentation (New / Returning / Loyal)
 
 
-Top products per category
+* Top products per category
 
 
-Revenue by age group
+* Revenue by age group
 
 
 
 ## Power BI Dashboard
 An interactive Power BI dashboard was built to visualize key insights.
+
 Dashboard highlights include:
-Revenue distribution by gender
+
+* Revenue distribution by gender
 
 
-Top rated products
+* Top rated products
 
 
-Discount usage trends
+* Discount usage trends
 
 
-Customer segmentation
+* Customer segmentation
 
 
-Revenue contribution by age group
+* Revenue contribution by age group
 
 
-Shipping type comparison
+* Shipping type comparison
 
 
 The dashboard helps stakeholders quickly understand customer behavior and purchasing trends.
 
 ## Key Results & Insights
+
 Major findings from the analysis include:
-Male customers generated higher total revenue compared to female customers.
+* Male customers generated higher total revenue compared to female customers.
 
 
-A large share of customers fall into the loyal customer segment.
+* A large share of customers fall into the loyal customer segment.
 
 
-Certain products such as gloves, sandals, and boots received the highest ratings.
+* Certain products such as gloves, sandals, and boots received the highest ratings.
 
 
-Express shipping users show slightly higher average purchase values.
+* Express shipping users show slightly higher average purchase values.
 
 
-Several products rely heavily on discount strategies to drive sales.
+* Several products rely heavily on discount strategies to drive sales.
 
 
 
 ## Business Recommendations
+
 Based on the analysis:
-Introduce loyalty programs to reward frequent buyers.
+
+* Introduce loyalty programs to reward frequent buyers.
 
 
-Promote subscription benefits to increase recurring purchases.
+* Promote subscription benefits to increase recurring purchases.
 
 
-Optimize discount strategies to balance sales growth and profit margins.
+* Optimize discount strategies to balance sales growth and profit margins.
 
 
-Focus marketing campaigns on high-revenue customer segments.
+* Focus marketing campaigns on high-revenue customer segments.
 
 
 
 ## How to Run the Project
-Clone the repository
+  Clone the repository
 
 
 git clone https://github.com/your-username/customer-shopping-behavior-analysis.git
@@ -249,42 +241,43 @@ pip install pandas numpy matplotlib seaborn mysql-connector-python
 Run the Python analysis notebook/script
 
 
-Perform EDA
+* Perform EDA
 
 
-Clean the dataset
+* Clean the dataset
 
 
-Export cleaned data
+* Export cleaned data
 
 
-Load cleaned data into MySQL
+* Load cleaned data into MySQL
 
 
-Run SQL queries to answer business questions
+* Run SQL queries to answer business questions
 
 
-Open the Power BI dashboard file (.pbix) to explore visual insights.
+* Open the Power BI dashboard file (.pbix) to explore visual insights.
 
 
 
 ## Project Learnings
 Through this project, the following skills were applied and strengthened:
-Data Cleaning and Preprocessing using Python
+
+* Data Cleaning and Preprocessing using Python
 
 
-Exploratory Data Analysis (EDA)
+* Exploratory Data Analysis (EDA)
 
 
-Writing business-focused SQL queries
+* Writing business-focused SQL queries
 
 
-Designing interactive dashboards in Power BI
+* Designing interactive dashboards in Power BI
 
 
-Translating data insights into business recommendations
+* Translating data insights into business recommendations
 
 
-Communicating findings through reports and presentations
+* Communicating findings through reports and presentations
 
      
